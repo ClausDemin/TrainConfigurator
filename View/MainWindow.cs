@@ -11,6 +11,7 @@ namespace TrainConfigurator.View
 
         private readonly TrainPresenter _presenter;
         private bool _isExitRequest;
+
         public MainWindow()
         {
             _presenter = new TrainPresenter(this);
@@ -63,6 +64,7 @@ namespace TrainConfigurator.View
             while (_isExitRequest == false)
             {
                 var userControl = Console.ReadKey(true).Key;
+
                 switch (userControl)
                 {
                     case ConsoleKey.UpArrow:

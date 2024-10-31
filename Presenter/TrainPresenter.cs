@@ -36,7 +36,6 @@ namespace TrainConfigurator.Contorller
             return true;
         }
 
-
         public string[] GetFullTrainInfo(Train train) 
         {
             List<string> trainInfo = new List<string>();
