@@ -1,5 +1,4 @@
-﻿using System.Text;
-using TrainConfigurator.Model.Infrastructure;
+﻿using TrainConfigurator.Model.Infrastructure;
 using TrainConfigurator.Model;
 using TrainConfigurator.View.Intefaces;
 
